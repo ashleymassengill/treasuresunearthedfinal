@@ -311,6 +311,7 @@ button {
   border: 3px solid #690052;
   box-sizing: border-box;
   position: relative;
+  top: 170px;
   z-index: 100; }
   .continent h5 {
     text-align: right;
