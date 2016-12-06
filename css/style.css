@@ -36,23 +36,23 @@ header {
     font-weight: bold;
     color: #231f20; }
 
-.nav {
+.exhnav {
   text-align: right; }
-  .nav ul {
+  .exhnav ul {
     margin-bottom: 5px; }
-    .nav ul .fa {
+    .exhnav ul .fa {
       display: none; }
-  .nav li {
+  .exhnav li {
     display: inline-block;
     padding-top: 35px;
     padding-bottom: 0px;
     padding-left: 30px; }
-    .nav li a {
+    .exhnav li a {
       font-size: 30px;
       color: #231f20;
       position: relative; }
 
-.nav li a::after {
+.exhnav li a::after {
   display: block;
   position: absolute;
   left: 0;
@@ -63,10 +63,10 @@ header {
   transition: height .3s;
   content: ""; }
 
-.nav li a:hover {
+.exhnav li a:hover {
   color: #690052; }
 
-.nav li a:hover::after {
+.exhnav li a:hover::after {
   height: 7px; }
 
 .social .fa:hover {
@@ -91,25 +91,25 @@ header {
     width: 60%;
     margin-left: 0px; }
 
-  .nav ul {
+  .exhnav ul {
     margin: 0px; }
-    .nav ul .fa {
+    .exhnav ul .fa {
       padding-top: 5px;
       font-size: 35px;
       display: block; }
-    .nav ul li {
+    .exhnav ul li {
       list-style: none;
       text-align: right;
       display: block;
       display: none;
       padding: 10px 10px 0px 0px;
       line-height: 10px; }
-      .nav ul li a {
+      .exhnav ul li a {
         font-size: 24px;
         color: #231f20;
         position: relative; }
 
-  .nav li a::after {
+  .exhnav li a::after {
     display: none; } }
 @media (min-width: 768px) and (max-width: 1256px) {
   header {
@@ -128,25 +128,25 @@ header {
     width: 60%;
     margin-left: 0px; }
 
-  .nav ul {
+  .exhnav ul {
     margin: 0px; }
-    .nav ul .fa {
+    .exhnav ul .fa {
       padding-top: 5px;
       font-size: 35px;
       display: block; }
-    .nav ul li {
+    .exhnav ul li {
       display: block;
       list-style: none;
       text-align: right;
       display: none;
       padding: 10px 10px 0px 0px;
       line-height: 10px; }
-      .nav ul li a {
+      .exhnav ul li a {
         font-size: 24px;
         color: #231f20;
         position: relative; }
 
-  .nav li a::after {
+  .exhnav li a::after {
     display: none; } }
 footer {
   background: #eaebec;
@@ -418,13 +418,15 @@ button {
     height: auto; }
 
   .contmap {
-    height: auto; }
+    height: auto;
+    width: 40%; }
     .contmap img {
       width: 95%;
       height: auto; }
 
   .mineralpics {
-    height: 450px; }
+    height: 450px;
+    width: 60%; }
     .mineralpics div img {
       height: auto;
       width: 75%; } }
@@ -682,7 +684,7 @@ header {
     .home-hero-title .dates {
       font-weight: 600; }
 
-  .seven.columns {
+  .col-size, .unearthing-column, .origin-column, .about-column {
     width: 100%; }
 
   .about .about-img {
@@ -839,78 +841,6 @@ header {
       margin-left: 0; }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .home-hero-title {
-    left: 0;
-    top: 50%; }
-    .home-hero-title .title {
-      font-size: 40px;
-      font-weight: 600; }
-    .home-hero-title .dates {
-      font-weight: 600; }
-
-  .about .about-img {
-    margin: 5% 0;
-    margin-top: 10%;
-    margin-left: 20%; }
-    .about .about-img img {
-      height: 120px;
-      width: 120px; }
-  .about .about-text {
-    margin: 5% 10%; }
-    .about .about-text h1::after {
-      width: 96%; }
-    .about .about-text .about-title {
-      font-size: 30px; }
-
-  .origin .origin-text {
-    margin: 8% 10%; }
-    .origin .origin-text h1::after {
-      width: 29%;
-      background-color: #690052;
-      transition: height .3s;
-      content: ""; }
-    .origin .origin-text .origin-title {
-      font-size: 30px; }
-  .origin .col-right {
-    margin-left: 1%; }
-    .origin .col-right .origin-img {
-      padding: 30px;
-      padding-top: 140px;
-      padding-right: 50px; }
-      .origin .col-right .origin-img img {
-        height: 250px;
-        width: 300px; }
-
-  .unearthing .unearthing-img {
-    margin-left: 20%;
-    padding: 30px;
-    padding-top: 150px; }
-    .unearthing .unearthing-img img {
-      height: 250px;
-      width: 300px; }
-  .unearthing .unearthing-text {
-    margin: 8% 10%;
-    margin-left: 15%; }
-    .unearthing .unearthing-text h1::after {
-      width: 55%; }
-    .unearthing .unearthing-text .unearth-title {
-      font-size: 30px; }
-
-  .treasures .treasures-text {
-    margin: 8% 10%; }
-    .treasures .treasures-text h1::after {
-      width: 50%; }
-    .treasures .treasures-text .treasures-title {
-      font-size: 30px; }
-  .treasures .treasures-img {
-    margin-left: 1%;
-    padding: 30px;
-    padding-top: 100px;
-    padding-right: 50px; }
-    .treasures .treasures-img img {
-      height: 250px;
-      width: 300px; } }
-@media (min-width: 768px) and (max-width: 1024px) {
   .unearth-hero-text {
     left: 0;
     top: 50%; }
@@ -941,7 +871,7 @@ header {
     left: 0;
     top: 50%; }
 
-  .seven.columns {
+  .what-column {
     width: 100%; }
 
   .what .what-text {
@@ -974,7 +904,7 @@ header {
   width: 100%;
   max-width: 100%; }
 
-.unearth-hero-text {
+.treasures-hero-text {
   margin-top: 225px;
   color: #231f20;
   background-color: rgba(255, 255, 255, 0.6);
@@ -983,13 +913,13 @@ header {
   position: relative;
   top: 40%;
   left: 55%; }
-  .unearth-hero-text h4 {
+  .treasures-hero-text h4 {
     text-align: center;
     font-weight: 400; }
-  .unearth-hero-text hr, .unearth-hero-text p {
+  .treasures-hero-text hr, .treasures-hero-text p {
     margin: 0;
     text-align: center; }
-  .unearth-hero-text hr {
+  .treasures-hero-text hr {
     border: 1px solid #231f20; }
 
 h1 {
@@ -1005,7 +935,7 @@ p {
   font-size: 18px;
   color: #231f20; }
 
-.hero {
+.treasureshero {
   background-image: url("../images/art/treasureshero.jpg");
   height: 630px;
   width: 100%;
@@ -1077,7 +1007,7 @@ p {
   border: 1px solid #690052; }
 
 @media (min-width: 768px) and (max-width: 1256px) {
-  .unearth-hero-text {
+  .treasures-hero-text {
     margin-top: 150px;
     color: #231f20;
     background-color: rgba(255, 255, 255, 0.6);
@@ -1144,7 +1074,7 @@ p {
       margin-bottom: 5%;
       margin-top: 5%; } }
 @media (max-width: 767px) {
-  .unearth-hero-text {
+  .treasures-hero-text {
     display: none; }
 
   h4 {
@@ -1159,7 +1089,6 @@ p {
   .jewelry {
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #eaebec;
     text-align: center; }
     .jewelry .jewelryarea {
       margin-left: 5%;
@@ -1168,7 +1097,6 @@ p {
       height: 250px;
       width: 250px;
       padding: 5%;
-      border: 1px solid #eaebec;
       margin-bottom: 5%;
       margin-top: 5%; }
 
@@ -1184,14 +1112,12 @@ p {
       height: 250px;
       width: 250px;
       padding: 5%;
-      border: 1px solid #eaebec;
       margin-bottom: 5%;
       margin-top: 5%; }
 
   .commercial {
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #eaebec;
     text-align: center; }
     .commercial .commercialarea {
       margin-left: 15%;
@@ -1200,7 +1126,6 @@ p {
       height: 250px;
       width: 250px;
       padding: 5%;
-      border: 1px solid #eaebec;
       margin-bottom: 5%;
       margin-top: 5%; } }
 body {
